@@ -1,0 +1,118 @@
+.border_black{border: 5px solid black;}
+.border_v{border: 5px solid violet;}
+.border_w{border: 5px solid white;}
+.border_r{border: 5px solid red;}
+.border_y{border: 5px solid yellow;}
+.border_o{border: 5px solid orange;}
+.border_blue{border: 5px solid blue}
+
+
+.base{
+    background-color: pink;
+    width: 250px;
+    position: absolute;
+    left: 75%;
+    top: 200px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el header de bienvenida */
+.bienvenida-header {
+    background-size: cover;
+    background-position: center;
+    color: #ff5733;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.bienvenida-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.bienvenida-header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.bienvenida-header a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.bienvenida-header a:hover {
+    background-color: #ff2e00;
+}
+
+/* Estilos generales para el formulario */
+.form-register {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-register h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.form-group{
+    border: 0px solid red;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+label{
+    border: 5px solid pink;
+    background-color: pink;
+    border-radius: 5px;
+
+}
+input{
+    border: 0px solid yellow;
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+    display: block;
+}
+
+button[type="submit"] {
+    background-color: #7d2b18;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #c44528;
+}
+
+
